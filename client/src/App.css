@@ -1,0 +1,105 @@
+.app {
+  display: flex;
+  height: 100vh;
+  background: #fff;
+}
+
+.sidebar {
+  width: 300px;
+  background: #f9f9f9;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sidebar-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.new-note-btn {
+  padding: 0.5rem 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.new-note-btn:hover {
+  background: #0056b3;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #999;
+}
+
+.empty-icon {
+  font-size: 64px;
+  margin-bottom: 1rem;
+}
+
+.empty-state h2 {
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.empty-state p {
+  color: #999;
+  margin-bottom: 1.5rem;
+}
+
+.primary-btn {
+  padding: 0.75rem 1.5rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.primary-btn:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    max-height: 200px;
+  }
+
+  .main-content {
+    flex: 1;
+  }
+}
