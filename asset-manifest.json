@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AI-notes-app/static/css/main.613ca483.css",
+    "main.js": "/AI-notes-app/static/js/main.1b528694.js",
+    "index.html": "/AI-notes-app/index.html",
+    "main.613ca483.css.map": "/AI-notes-app/static/css/main.613ca483.css.map",
+    "main.1b528694.js.map": "/AI-notes-app/static/js/main.1b528694.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.613ca483.css",
+    "static/js/main.1b528694.js"
+  ]
+}
